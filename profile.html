@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!--css style link  -->
+    <link rel="stylesheet" href="css/profile.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>
+                    Profile
+                </h1>
+            </div>
+            <div class="bar">
+                <span>
+                    <i class="fa fa-bars"></i>
+                </span>
+            </div>
+            <div>
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <h3><a href="hospital.html"> Home</a></h3>
+                        </li>
+                        <li>
+                            <h3>contacts</h3>
+                        </li>
+                        <li>
+                            <h3 class="active">account</h3>
+                        </li>
+                        <li>
+                            <h3>about</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="nav-mobile">
+            <ul>
+                <li>
+                    <span><i class="fa fa-house"></i></span>
+                    <h3>Home</h3>
+                </li>
+                <li>
+                    <span><i class="fa fa-address-card"></i></span>
+                    <h3>contacts</h3>
+                </li>
+                <li>
+                    <span><i class="fa fa-phone-square-alt"></i></span>
+                    <h3 class="active">about</h3>
+                </li>
+                <li class="active">
+                    <span><i class="fa fa-user-circle"></i></span>
+                    <h3>account</h3>
+                </li>
+            </ul>
+        </div>
+        <div class="m-bar">
+            <span><i class="fa fa-ellipsis-v"></i></span>
+        </div>
+        <aside class="sidebar">
+            <h1> sidebar<span class="close"><i class="fa fa-times"></i></span></h1>
+            <div class="user-side">
+                <div class="user-pic">
+                    <img width="100" src="image/back.jpg" alt="">
+                </div>
+                <div class="user-info">
+                   <span class="name">Personal Profile</span>
+                   <span class="Email">example@gmail.com</span>
+                   <span class="status"> online</span>
+                </div>
+            </div>
+            <div class="search">
+                <form>
+                    <div class="row">
+                        <input type="text" placeholder="search profile...">
+                        <button type="submit"><span><i class="fa-search"></i></span></button>
+                    </div>
+                </form>
+            </div>
+            <div class="aside-nav">
+                <h2>
+                    General
+                </h2>
+                <nav>
+                    <ul>
+                        <li class="active" onclick="show(0)">
+                        <span><i class="fa fa-tachometer-alt"></i></span>
+                        <h3>Dashboard</h3>
+                    </li>
+                    <ul>
+                        <li onclick="show(1)">
+                        <span><i class="fa fa-star"></i></span>
+                        <h3>Reviews</h3>
+                    </li>
+                    <ul>
+                        <li onclick="show(2)">
+                        <span><i class="fa fa-comments"></i></span>
+                        <h3>comments</h3>
+                    </li>
+                    <ul>
+                        <li onclick="show(3)">
+                        <span><i class="fa fa-cog"></i></span>
+                        <h3>settings</h3>
+                    </li>
+                    
+                    </ul>
+                </nav>
+            </div>
+            <div class="bt-nav">
+                <ul>
+                    <li class="aleart" title="Aleart">
+                        <span><i class="fa fa-bell"></i></span>
+                    </li>
+                    <li class="message" title="Messages">
+                        <span><i class="fa fa-envelope"></i></span>
+                    </li>
+                    <li class="set" title="Settings">
+                        <span><i class="fa fa-cog"></i></span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="main">
+           <section class="profile tabs">
+            <h1>Your post</h1>
+            <div class="userpost">
+                <div class="post">
+                    <span class="pst"><i class="fa fa-plus"></i></span>
+                </div>
+                <div class="post">
+                    <img width="200" src="image/bunny.png" alt="">
+                    <p>Title</p>
+                </div>
+                <div class="post">
+                    <img width="200" src="image/bunny.png" alt="">
+                    <p>Title</p>
+                </div>
+                <div class="post">
+                    <img width="200" src="image/bunny.png" alt="">
+                    <p>Title</p>
+                </div>
+                <div class="post">
+                    <img width="200" src="image/bunny.png" alt="">
+                    <p>Title</p>
+                </div>
+            </div>
+
+           </section>
+           <section class="tabs">
+            <h1>Reviews</h1>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nulla dolorem id obcaecati doloribus recusandae vero incidunt? Sint quibusdam dolores dolorem voluptatibus autem eius maxime dicta, minus fuga, doloremque inventore.</p>
+           </section>
+           <section class="tabs">
+            <h1>comments</h1>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nulla dolorem id obcaecati doloribus recusandae vero incidunt? Sint quibusdam dolores dolorem voluptatibus autem eius maxime dicta, minus fuga,autem eius maxime dicta, minus fuga, doloremque inventore doloremque inventore.</p>
+           </section>
+           <section class="tabs">
+            <h1>settings</h1>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nulla dolorem id obcaecati doloribus recusandae vero incidunt? Sint quibusdam dolores dolorem voluptatibus .</p>
+           </section>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+ 
+</body>
+</html>
